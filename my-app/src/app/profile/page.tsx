@@ -28,7 +28,7 @@ export default function ProfilePage() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <h1>Profile</h1>
+            <h1>Vivek</h1>
             <hr />
             <p>Profile page</p>
             <h2 className="p-1 rounded bg-green-500">{data === 'nothing' ? "Nothing" : <Link href={`/profile/${data}`}>{data}
@@ -43,8 +43,6 @@ export default function ProfilePage() {
         onClick={getUserDetails}
         className="bg-green-800 mt-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >GetUser Details</button>
-
-
             </div>
     )
 }
